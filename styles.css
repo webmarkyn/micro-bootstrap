@@ -50,7 +50,6 @@ header {
   top: 0;
   border-top: 10px solid #dc3545;
   border-left: 10px solid #fff;
-  /* background: #DC3545; */
 }
 
 .navbar-nav {
@@ -333,9 +332,6 @@ a.text-dark:hover {
 .ad-small img {
   max-height: 280px;
   object-fit: cover;
-  /* height: 100%;
-  object-fit: cover;
-  max-width: 400px; */
 }
 
 @media (max-width: 992px) {
@@ -383,6 +379,7 @@ footer {
     font-size: 14px;
     color: #666;
   }
+
   .footer-link-item {
     padding: 0 10px;
     border-right: none;
@@ -395,6 +392,4 @@ footer {
   .ad-large img {
     max-width: 250px;
   }
-  
 }
-
