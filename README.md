@@ -8,14 +8,11 @@ OBJECTIVE
 Source of Project  
     You can find the original project specification at: <https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap>  
 Author:  
-    This project was executed by Kyankya Raymond and Mark Baidebura.  
+    Mark Baidebura.  
 Technologies Used.  
     HTML and CSS and Bootstrap  
 Live: 
-    https://htmlpreview.github.io/?https://github.com/webmarkyn/micro-bootstrap/blob/layout/index.html  
-
-Author:
-    Mark Baidebura
+    https://htmlpreview.github.io/?https://github.com/webmarkyn/micro-bootstrap/blob/layout/index.html    
 
 Setup  
     How to setup a repo of this page on your local machine:  

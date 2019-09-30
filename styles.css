@@ -147,6 +147,17 @@ a.text-dark:hover {
   border-radius: 0;
 }
 
+.ad-large img {
+  height: 280px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ad-small img {
+  max-height: 280px;
+  object-fit: cover;
+}
+
 .card .card-header:first-child img {
   border-radius: 0;
 }
@@ -168,6 +179,11 @@ a.text-dark:hover {
 
 /* Hover */
 
+.story-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .card:hover .card-title,
 .story:hover .story-title {
   text-decoration: underline;
@@ -183,11 +199,6 @@ a.text-dark:hover {
 .story {
   padding-top: 15px;
   border-top: 1px solid #ddd;
-}
-
-.story-title {
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .story-img {
@@ -321,17 +332,6 @@ a.text-dark:hover {
 /* Ads */
 .ad-large {
   margin-bottom: 45px;
-}
-
-.ad-large img {
-  height: 280px;
-  display: block;
-  margin: 0 auto;
-}
-
-.ad-small img {
-  max-height: 280px;
-  object-fit: cover;
 }
 
 @media (max-width: 992px) {
