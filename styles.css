@@ -1,0 +1,395 @@
+body {
+  background: #f4f5f6;
+}
+
+.wrapper {
+  max-width: 1310px;
+  min-width: 320px;
+  background: #fff;
+  min-height: 100vh;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+
+/* Header */
+
+header {
+  margin-bottom: 15px;
+}
+
+.header-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.header-logo-container {
+  min-height: 80%;
+}
+
+.header-logo {
+  min-height: 80%;
+}
+
+.header-logo svg {
+  fill: #fff;
+}
+
+.navbar {
+  width: 100%;
+  padding-right: 65px !important;
+  position: relative;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  width: 85px;
+  height: 5px;
+  right: 0;
+  top: 0;
+  border-top: 10px solid #dc3545;
+  border-left: 10px solid #fff;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-link.text-dark {
+  border-right: 1px solid #d9d9d9;
+  font-size: 16px;
+}
+
+.nav-item:last-child .nav-link.text-dark {
+  border-right: none;
+}
+
+a.text-dark:focus,
+a.text-dark:hover {
+  color: #f72210 !important;
+}
+
+.header-form {
+  width: 113px;
+}
+
+.header-search {
+  border: none;
+  width: 46px;
+}
+
+@media (max-width: 576px) {
+  .header-logo {
+    height: 17px;
+  }
+
+  .header-buttons button {
+    font-size: 11px;
+  }
+
+  .header-buttons button.navbar-toggler {
+    font-size: 22px;
+  }
+}
+
+/* Main */
+
+/* Section */
+
+.section-header {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.section-header-icon {
+  display: block;
+  height: 29px;
+  width: 29px;
+  flex: none;
+  background: url("images/span.svg") #f72210;
+  margin-right: 15px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.travel {
+  background: #f4f5f7;
+  margin-bottom: 15px;
+}
+
+.travel .section-title {
+  padding: 10px;
+}
+
+/* Card */
+
+.card-header {
+  position: relative;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  background: transparent;
+}
+
+.card .card-header:first-child {
+  border-radius: 0;
+}
+
+.ad-large img {
+  height: 280px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ad-small img {
+  max-height: 280px;
+  object-fit: cover;
+}
+
+.card .card-header:first-child img {
+  border-radius: 0;
+}
+
+.card-header-tag {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f72210;
+}
+
+.card-body-tag {
+  background: #c2d4d7;
+}
+
+/* Hover */
+
+.story-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card:hover .card-title,
+.story:hover .story-title {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Story */
+
+.more-stories {
+  margin-bottom: 45px;
+}
+
+.story {
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.story-img {
+  width: 135px;
+  height: 90px;
+}
+
+/* Opinion */
+
+.opinion {
+  width: 100%;
+  padding-top: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.opinion:last-child {
+  border-bottom: none;
+}
+
+.opinion-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.opinion-title {
+  font-size: 16px;
+}
+
+.opinion-text {
+  font-size: 14px;
+  opacity: 0.55;
+}
+
+/* Latest */
+
+.inline-article {
+  padding-top: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.inline-article:last-child {
+  border-bottom: none;
+}
+
+.article:last-child {
+  border-bottom: none;
+}
+
+.article-img {
+  max-width: 140px;
+  width: 38%;
+  height: 90px;
+}
+
+.article-title {
+  font-size: 15px;
+}
+
+/* Newsletter */
+
+.newsletter {
+  background: #f4f5f6;
+  padding: 15px 10px;
+  border: 1px solid #e5e5e5;
+  max-width: 300px;
+  margin: 25px auto;
+}
+
+.newsletter-header {
+  line-height: 1.2;
+}
+
+/* Ad */
+
+.card.ad {
+  position: relative;
+  top: -33px;
+}
+
+.card.ad .card-body {
+  background: #f4f5f6;
+}
+
+/* Magazine */
+
+.magazine .card .card-title {
+  font-size: 1.1rem;
+}
+
+/* Featured slideshows */
+
+.featured-slideshows .section-header-icon {
+  position: relative;
+}
+
+.featured-slideshows .section-header-icon::after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.featured-slideshows .card-header-tag {
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png");
+  background-size: contain;
+  text-align: center;
+  line-height: 48px;
+  width: 70px;
+  height: 50px;
+}
+
+/* Theme */
+
+.theme {
+  padding-top: 15px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.theme-title {
+  color: #f72210;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Ads */
+.ad-large {
+  margin-bottom: 45px;
+}
+
+@media (max-width: 992px) {
+  .ad-large img {
+    max-width: 250px;
+  }
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid #f4f5f6;
+  padding-top: 30px;
+  margin-top: 35px;
+}
+
+.socials {
+  justify-content: flex-end;
+}
+
+.socials a {
+  color: #666;
+  font-size: 30px;
+  margin: 0 5px;
+}
+
+.footer-bottom {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.footer-link-item a {
+  font-size: 18px;
+  color: #666;
+}
+
+.footer-link-item {
+  display: inline;
+  padding: 0 15px;
+  border-right: 1px solid #d9d9d9;
+}
+
+@media (max-width: 576px) {
+  .footer-link-item a {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .footer-link-item {
+    padding: 0 10px;
+    border-right: none;
+  }
+
+  .socials {
+    justify-content: flex-start;
+  }
+
+  .ad-large img {
+    max-width: 250px;
+  }
+}
